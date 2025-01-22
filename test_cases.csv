@@ -1,0 +1,8 @@
+Test Case ID,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Severity Level,Assigned To,Remarks
+TC001,Validate product listing page,Open product listing page > Verify products,Products displayed correctly,Products displayed correctly,Passed,High,Sir Ameen,No issues found
+TC002,Validate product detail page,Open product detail page > Verify products,Products detail displayed correctly,Products detail displayed correctly,Passed,High,Sir Ameen,No issues found
+TC003,Test API error handling,Disconnect API > Refresh page,Show fallback UI with error message,Error message displayed,Passed,High,Sir Ameen,Handled gracefully
+TC004,Check cart functionality,Add product to wishlist > Verify cart,Wishlist updates with added product,Wishlist updates as expected,Passed,High,Sir Ameen,Works as expected
+TC005,Check cart functionality,Add product to cart > Verify cart contents,Cart updates with added product,Cart updates as expected,Passed,High,Sir Ameen,Works as expected
+,,,,,,,,
+TC007,Ensure responsiveness on mobile,Resize browser window > Check layout,Layout adjusts properly to screen size,Responsive layout working as intended,Passed,High,Sir Ameen,Test successful
