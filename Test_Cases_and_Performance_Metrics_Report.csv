@@ -1,0 +1,14 @@
+Test Case ID,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Severity Level,Assigned To,Remarks
+TC001,Validate product listing page,Open product listing page > Verify products,Products displayed correctly,Products displayed correctly,Passed,High,Sir Ameen,No issues found
+TC002,Validate product detail page,Open product detail page > Verify products,Products detail displayed correctly,Products detail displayed correctly,Passed,High,Sir Ameen,No issues found
+TC003,Test API error handling,Disconnect API > Refresh page,Show fallback UI with error message,Error message displayed,Passed,High,Sir Ameen,Handled gracefully
+TC004,Check cart functionality (wishlist),Add product to wishlist > Verify cart,Wishlist updates with added product,Wishlist updates as expected,Passed,High,Sir Ameen,Works as expected
+TC005,Check cart functionality (cart),Add product to cart > Verify cart contents,Cart updates with added product,Cart updates as expected,Passed,High,Sir Ameen,Works as expected
+TC007,Ensure responsiveness on mobile,Resize browser window > Check layout,Layout adjusts properly to screen size,Responsive layout working as intended,Passed,High,Sir Ameen,Test successful
+
+Metric,Good,Needs Improvement,Poor
+FCP (First Contentful Paint),0 - 1800ms,1800ms - 3000ms,Over 3000ms
+LCP (Largest Contentful Paint),0 - 2500ms,2500ms - 4000ms,Over 4000ms
+CLS (Cumulative Layout Shift),0 - 0.1,0.1 - 0.25,Over 0.25
+INP (Interaction to Next Paint),0 - 200ms,200ms - 500ms,Over 500ms
+TTFB (Time to First Byte - Experimental),0 - 800ms,800ms - 1800ms,Over 1800ms
